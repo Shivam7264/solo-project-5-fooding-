@@ -96,7 +96,7 @@ function getItem(){
 let top=`
 <header class="cover">
 <div class="text">
-<h3>Shivam's menu</h3>
+<h3>Shivam's Menu</h3>
 <h6>The best burger's and pizza's in town</h6>
 </div>
 </header>
