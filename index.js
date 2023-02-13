@@ -63,7 +63,7 @@ document.getElementById("pay-form").addEventListener('submit',function(e){
    
     let tq=`
     <div id="greet" class="greet">
-    <p class="thank">Thanks ${names.value}!!<br> your order is on the way fy man...</p>
+    <p class="thank">Thanks ${names.value}!!<br> your order is on the way ... 🚚</p>
     <div class="cross1">
                     <i class="fa fa-times fa-2x" id="cross1" aria-hidden="true"></i>
                 </div>
@@ -156,7 +156,7 @@ function rendercontent(){
            <div class="cart">
                <div class="order-item">
                <p class="name">${content[i].name} <span class="a" data-remove="${content[i].id}" >remove</span></p>
-               
+              <p> <span class="text">Qty(${content[i].count})</span></p>
                <p class="price">${content[i].price*content[i].count}</p>
                </div>
            </div>
