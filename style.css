@@ -1,0 +1,210 @@
+body{
+   background-color: whitesmoke;
+    margin:auto;
+    max-width:40%;
+}
+#container{
+    background-color: white;
+}
+.cover{
+    width: 100%;
+    height: 15%;
+    color: white;
+
+    background-image: url("cover.jpg");
+    background-size: cover;
+}
+.text{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    padding-left: 20%;
+    padding-top: 5%;
+}
+h3{
+    margin-bottom: 0;
+}
+h6{
+    margin-top: 5px;
+}
+.item{
+    margin-top: 0;
+    border-bottom: 1px solid grey;
+   
+width: 100%;
+display: flex;
+gap: 2rem;
+
+}
+.detail{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right:2rem;
+}
+.emoji{
+   
+   font-size: 60;
+ height:fit-content;
+    width: 20%;
+   margin: 0;
+   padding:0;
+}
+#emo{
+    margin: auto;
+padding-left: 0.7rem;
+
+}
+.namew{
+    font-weight: bold;
+    font-size:larger;
+    margin-bottom: 0.3rem;
+    
+}
+.ingredw{
+    margin-top:0;
+    margin-bottom: 0;
+   
+}
+
+.pricew{
+margin-top: 0.3rem;
+}
+.add{
+    padding-top: 20px;
+}
+.order-details{
+    
+
+    margin: auto;
+    align-items: center;
+    text-align: center;
+   padding-top: 0.3rem;
+    width:70%;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-bottom: 0.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.order-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+hr{
+    
+   height:0.08rem;
+   background-color: black;
+}
+button{
+    width: 90%;
+    height: 5%;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(20, 81, 8);
+}
+.a{
+    cursor:pointer ; 
+    text-decoration: none;
+    font-weight: lighter;
+    font-size:0.5rem ;
+    color: grey;
+}
+form{
+text-align: center;
+
+
+}
+.cross{
+    
+    position: absolute;
+    top: 0.4rem;
+    right: 0.8rem;
+background-color: red;
+width: 2rem;
+height: 2rem;
+padding-left: 0.5rem;
+}
+#pay{
+    position: relative;
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   background-image: linear-gradient(rgb(16, 136, 180),rgb(209, 218, 207));
+   width: 40%;
+   height: 40%;
+
+}
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+input{
+    height: 2.4rem;
+    padding: 0.5rem;
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+.payBtn{
+    
+    padding: 0.5rem;
+    
+    margin-bottom: 1rem;
+    margin-left:0.9rem ;
+    width: 90%;
+    height: 5%;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(20, 81, 8);
+}
+
+.hidden{
+    display: flex;
+}
+.headi{
+    font-weight: bold;
+    font-size:large;
+}
+.greet{
+    position: relative;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    font-weight: bolder;
+    color: darkgoldenrod;
+    background-color: rgb(115, 90, 195);
+   width: 40%;
+    height: 30%;
+   text-align: center;
+   align-items: center;
+  
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.thank{
+    font-size: 2rem;
+    margin-left:10% ;
+    color:white;
+}
+.cross1{
+    position: absolute;
+    top: 0.4rem;
+right: 0.8rem;
+background-color:white;
+width: 2rem;
+height: 2rem;
+padding-left: 0.2rem;
+}
