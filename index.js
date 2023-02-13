@@ -1,7 +1,7 @@
 import {menuArray} from './data.js'
 let cross=document.getElementById("cross")
 
-let greet=document.getElementById("greet")
+
 let names=document.getElementById("name-card")
 let whole=document.getElementById("container")
 
@@ -74,6 +74,7 @@ document.getElementById("pay-form").addEventListener('submit',function(e){
     render(tq)
     document.getElementById("cross1").addEventListener('click',function(){
         document.getElementById("greet").style.display='none'
+        render('')
     })
 })
 function handleRemove(removeId){
